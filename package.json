@@ -9,13 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EJaona/Sprint-Challenge-Node-Express.git"
+    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Node-Express.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EJaona/Sprint-Challenge-Node-Express/issues"
+    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
   },
-  "homepage": "https://github.com/EJaona/Sprint-Challenge-Node-Express#readme"
+  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "knex": "^0.16.3",
+    "nodemon": "^1.18.10",
+    "sqlite3": "^4.0.6"
+  }
 }
