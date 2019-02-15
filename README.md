@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+        1) Most code we write (including route handlers) is a middleware.
+        2) There are really 4 hommies..
+
 - [ ] Describe Middleware?
+
+        1) Middlewares are an array of functions used to add features to Express
 
 - [ ] Describe a Resource?
 
+        1) I can't say that i remember this one.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+        1) The request status code.
+
 - [ ] How can we partition our application into sub-applications?
+
+        1) By adding different routes to the application.
 
 ## Project Setup
 
@@ -44,12 +55,12 @@ Follow these steps to set up and work on your project:
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request.**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request.**
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
 ## Database Persistence Helpers
 
