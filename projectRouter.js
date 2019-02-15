@@ -4,7 +4,10 @@ const projectRouter = express.Router();
 
 projectRouter.get("/:id", async (req, res) => {
   const action = await projectDb.get(req.params.id);
-  //   const resp = action.actions.map(act => act.project_id);
+  res.status(200).json({ success: true, action });
+});
+projectRouter.get("/:id/actions", async (req, res) => {
+  const action = await projectDb.getProjectActions(req.params.id);
   res.status(200).json({ success: true, action });
 });
 
